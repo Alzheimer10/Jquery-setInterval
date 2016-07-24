@@ -1,0 +1,54 @@
+body{
+	background-color: #ff0;
+	font-family: arial;
+	margin: 0px auto;
+	padding: 0px;
+	color: white;
+}
+section{
+	margin-top: 20%;
+}
+h1{
+	margin: auto;
+	text-align: center;
+	font-size: 2em;
+	padding: 0px;
+	color: black;
+}
+label{
+	font-size: 1.5em;
+}
+h1::after{
+	content: "'Segs";
+}
+h1::before{
+	content: "CONTADOR:";
+	width: 200px;
+	height: 50px;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	-webkit-transform: rotate(-10deg) ;
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.content{
+	width: 50%;
+	font-size: 1em;
+	color: black;
+	margin: 0px auto;
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 42px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 42px -6px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 42px -6px rgba(0,0,0,0.75);
+}
+.content span{
+	margin: auto;
+	font-size: 1.5em;
+}
